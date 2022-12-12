@@ -1,0 +1,33 @@
+.footer__top{
+    background-color: $color-darkNavy;
+    background-image:url(../images/home-page/png/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: bottom right;
+    padding: 100px 0;
+    .footer_top{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            margin-left: 13px;
+        }
+        h1{
+            width: 100%;
+            max-width: 415px;
+            font-size: $font-size-48;
+            line-height: $line-height-1;
+            letter-spacing: $letter-spacing-214;
+            color: $color-white;
+        }
+    }
+    .footer__bottom{
+        background-color: #333A44;
+        a{
+            color: $color-dimGrey;
+        }
+        li{
+            display: flex;
+        }
+    }
+}

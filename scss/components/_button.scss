@@ -1,0 +1,15 @@
+.btn{
+    width: 180px;
+    height: 53px;
+    padding: 14px 36px;
+    color: $color-white;
+    background-color: $color-yellow;
+    display: inline-block;
+    font-family: $SpaceMono;
+    border: 3px solid $color-yellow;
+}
+.btn:hover{
+    background-color: transparent;
+    color: $color-yellow;
+    border: 3px solid $color-yellow;
+}

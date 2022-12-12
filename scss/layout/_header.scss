@@ -1,0 +1,66 @@
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+    @include responsive(tablet) {
+      width: 100%;
+      max-width: 768px;
+      padding-left: 39px;
+      padding-right: 39px;
+    }
+    @include responsive(b-tablet) {
+      padding-left: 39px;
+      padding-right: 39px;
+    }
+    @include responsive(m-tablet) {
+      padding-left: 39px;
+      padding-right: 39px;
+    }
+    nav{
+        @include responsive(m-tablet){
+            display: none;
+        }
+    }
+    .site__logo{
+      @include responsive(m-tablet){
+          display: flex;
+          align-items: center;
+          width: 100%;
+          // margin-right: 100px;
+      }
+      .burger{
+        display: none;
+        @include responsive(m-tablet){
+            display: block;
+            margin-right: 100px;
+        }
+      }
+    }
+    .nav-btn{
+      @include responsive(m-tablet){
+          display: none;
+      }
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        margin-right: 58px;
+      }
+      ul {
+        display: flex;
+        li {
+          margin-left: 32px;
+        }
+        a {
+          font-family: $SpaceMono;
+          color: $color-dimGrey;
+        }
+        a:hover {
+          color: $color-yellow;
+        }
+      }
+    }
+  }
+  
